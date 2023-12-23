@@ -1,0 +1,43 @@
+body{
+  background-color: #EEE;
+}
+.App{
+  max-width: 414px;
+  margin: 0 auto;
+  background: #FFF ;
+  padding: 20px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+.header-left{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.header-title{
+  color: #000;
+font-family: Lexend Deca;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.header-view-all{
+  color: #FF22A7;
+font-family: Lexend Deca;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.card-box{
+  display: flex;
+  gap: 23px;
+  justify-content: space-around;
+
+}
